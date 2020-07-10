@@ -1,12 +1,60 @@
+body {
+    padding-top: 800px;
+}
+
 .topo{
     background-color: #41475e;
     height: 200px;
 }
 
 .link-topo{
-    color: #ffff00;
+    color: #F7D41A;
     text-transform: uppercase;
     padding-left: 18px;
     font-weight: bold;
 }
 
+.footer-bg {
+    background: #606676;
+}
+
+.rodape-fonte-amarelo {
+color: #F7D41A;
+}
+.img-buttom img {
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
+
+
+.text-newsletter-color {
+    color: #F7D41A;
+}
+
+.newsletter-campo{
+    z-index:999;
+    margin-left:-50px;
+    float:left;
+    background-color: #F7D41A;
+    border: none;
+    color:#41475F;
+    font-weight:bold;
+    font-size:12px
+}
+
+.rodape-informacoes{
+    margin-top:50px;
+    padding-top:50px;
+}
+
+.rodape-informacoes img{
+    width: 200px;
+}
+
+.rodape-copy {
+    background-color: #41475e;
+    padding-top: 100px;
+
+}
