@@ -15,9 +15,17 @@ body {
 }
 
 .footer-bg {
-    background: #606676;
+    background: url(../images/rodape.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    padding: 0;
+    overflow: hidden;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-bottom: -45px;
+    z-index:3;
+    position: relative;
 }
 
 .rodape-fonte-amarelo {
@@ -86,6 +94,8 @@ body {
 .rodape-copy {
     background-color: #41475e;
     padding-top: 50px;
+    position:relative;
+    z-index: 2;
 }
 
 .rodape-copy-texto {
