@@ -30,6 +30,8 @@ body {
 
 .contato{
     background: #41475e;
+    z-index: 4;
+    position: relative;
 }
 
 .contato-img-sub {
@@ -51,16 +53,18 @@ body {
     margin-top: -5px;
     float: left;
 }
-.contato-es{
-    color: #fff3cd;
-}
+
 .contato-di{
     color: #fff3cd;
-    float: ;
+}
+.contato-es{
+    color:#fff;
+}
+.contato-es input{
+    height: 30px;
 }
 
 .mapa-loc {
-
     position: relative;
     z-index: 2;
     margin-bottom: -25px;
@@ -139,4 +143,37 @@ body {
 
 .rodape-copy-texto {
     padding-bottom: 50px;
+}
+
+.contato-img-ba{
+    position: relative;
+    background: url("../images/localizacao-1.png");
+    z-index: 4;
+}
+.contato-es-form-item{
+    min-width: 300px;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding-top:20px
+}
+.contato-es-form-item-endereco{
+    min-width: 300px;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding-top:20px
+}
+.contato-es-form-item-endereco p{
+    margin-top: -12px;
+}
+.contato-es-form-item img{
+    float:left;
+    margin-right:20px;
+}
+.contato-es-espaco-contato img{
+    margin-top: 1px;
+    float: left;
+    margin-right:20px;
+}
+.contato-es-form-item-endereco img{
+    margin-right:20px;
 }
