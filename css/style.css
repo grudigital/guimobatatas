@@ -2,12 +2,12 @@ body {
     padding-top: 800px;
 }
 
-.topo{
+.topo {
     background-color: #41475e;
     height: 200px;
 }
 
-.link-topo{
+.link-topo {
     color: #F7D41A;
     text-transform: uppercase;
     padding-left: 18px;
@@ -16,67 +16,78 @@ body {
 
 .footer-bg {
     background: #606676;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .rodape-fonte-amarelo {
-color: #F7D41A;
+    color: #F7D41A;
+    text-transform: uppercase;
 }
+
 .img-buttom img {
-    max-width:30px;
-    max-height:30px;
+    max-width: 30px;
+    max-height: 30px;
     width: auto;
     height: auto;
 }
-
 
 .text-newsletter-color {
     color: #F7D41A;
+    float: left;
+    font-size: 15px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-left: 12px;
 }
 
-.newsletter-campo{
-    z-index:999;
-    margin-left:-50px;
+.newsletter-campo {
+    z-index: 999;
+    margin-left: -50px;
     float: right;
     background-color: #F7D41A;
     border: none;
-    color:#41475F;
-    font-weight:bold;
-    font-size:12px
+    color: #41475F;
+    font-weight: bold;
+    font-size: 12px
 }
 
 .rodape-informacoes-logo-newsletter-area {
-    margin-left: 300px;
+    float: left;
+    width: 100%;
 }
 
 .rodape-informacoes-logo-newsletter {
+    font-size: 20px;
+}
 
+.rodape-informacoes-logo-img-buttom {
+    text-transform: uppercase;
+    margin-top: 28px;
+    float: right;
+    padding-left: 50px;
+}
+
+.rodape-informacoes-logo-img-buttom p {
+    float: right;
+    margin-right: 5px;
 }
 
 .rodape-informacoes-logo-img-buttom img {
-    max-width:30px;
-    max-height:30px;
-    width: auto;
-    height: auto;
-    float: left;
-
-
-}
-
-.rodape-informacoes-logo-img-buttom{
-    text-transform: uppercase;
-    margin-left: 1000px
-
-}
-
-}
-
-.rodape-informacoes-logo img {
-    margin-top: 150px;
-
+    max-width: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    max-height: 30px;
+    margin-top: -5px;
+    float: right;
 }
 
 .rodape-copy {
     background-color: #41475e;
-    padding-top: 100px;
+    padding-top: 50px;
+}
 
+.rodape-copy-texto {
+    padding-bottom: 50px;
 }
