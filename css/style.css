@@ -36,7 +36,7 @@ color: #F7D41A;
 .newsletter-campo{
     z-index:999;
     margin-left:-50px;
-    float:left;
+    float: right;
     background-color: #F7D41A;
     border: none;
     color:#41475F;
@@ -44,13 +44,35 @@ color: #F7D41A;
     font-size:12px
 }
 
-.rodape-informacoes{
-    margin-top:50px;
-    padding-top:50px;
+.rodape-informacoes-logo-newsletter-area {
+    margin-left: 300px;
 }
 
-.rodape-informacoes img{
-    width: 200px;
+.rodape-informacoes-logo-newsletter {
+
+}
+
+.rodape-informacoes-logo-img-buttom img {
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+    float: left;
+
+
+}
+
+.rodape-informacoes-logo-img-buttom{
+    text-transform: uppercase;
+    margin-left: 1000px
+
+}
+
+}
+
+.rodape-informacoes-logo img {
+    margin-top: 150px;
+
 }
 
 .rodape-copy {
