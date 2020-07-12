@@ -53,14 +53,23 @@ margin-top:-50px;
     margin-bottom: -5px;
     margin-left: -200px;
 }
+.banner-principal-subtitulo{
+    margin-top: 20px;
+    text-align:center;
+    width: 100%;
+    margin-left:-80px;
+    margin-top:-80px;
+    font-weight: bold;
+}
 .quem-somos-sub-title-amarelo{
     color: #F7D41A;
     font-size:20px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    margin-top:-25px;
+    margin-top:-10px;
     margin-bottom:50px;
+    margin-left:-190px
 }
 .fundo-quem-somos{
     background: url("../images/quemsomosback.png");
@@ -80,11 +89,10 @@ margin-top:-50px;
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 400px;
+    margin-left: -80px;
     margin-top:200px;
+    width: 100%;
 }
-
-
 .quem-somos-buttom{
     text-transform: uppercase;
     margin-left: 570px;
