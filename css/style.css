@@ -1,5 +1,7 @@
 body {
+
 }
+
 
 .topo {
     background-color: #41475e;
@@ -204,6 +206,29 @@ margin-top:-50px;
     margin-top: 252px;
 }
 
+.carousel-item-produto-image img {
+    width: 250px;
+    float: right;
+    margin-top: 120px ;
+}
+
+.carousel-item-produto-text{
+    color: #41475F;
+    margin-top: 120px;
+    float: left;
+
+}
+.carousel-item-produto-title-amarelo{
+    color: #F7D41A;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:30px;
+}
+.carousel-item-produto-title-subtitle{
+    color: #41475F;
+    font-size: 14px;
+    font-weight: bold;
+}
 .noticias-title{
     text-transform: uppercase;
 }
