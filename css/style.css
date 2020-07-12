@@ -4,6 +4,9 @@ body {
 .topo {
     background-color: #41475e;
 }
+.cor-letra-branca{
+    color: #fff;
+}
 
 .link-topo {
     color: #F7D41A;
@@ -35,7 +38,7 @@ body {
 .fundo-banner-principal{
     background: url("../images/banner-home-1.png");
     background-repeat: no-repeat;
-    height:500px;
+    height:618px;
 }
 .bloco-quem-somos{
 margin-top:-50px;
@@ -58,7 +61,6 @@ margin-top:-50px;
     text-align: center;
     margin-top:-25px;
     margin-bottom:50px;
-    padding-left: 500px;
 }
 .fundo-quem-somos{
     background: url("../images/quemsomosback.png");
@@ -68,6 +70,20 @@ margin-top:-50px;
     position: relative;
     z-index: 5;
 }
+
+.fundo-quem-somos p{
+    padding-top: 40px ;
+}
+.banner-principal-titulo{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 400px;
+    margin-top:200px;
+}
+
 
 .quem-somos-buttom{
     text-transform: uppercase;
@@ -88,7 +104,8 @@ margin-top:-50px;
     margin-top: 120px;
     text-align: center;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
+    line-height: 0.5;
 }
 .bloco-quem-somos-corp{
     background-image: url("../images/quemsomos10.png");
