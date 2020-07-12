@@ -1,10 +1,8 @@
 body {
-    padding-top: 800px;
 }
 
 .topo {
     background-color: #41475e;
-    height: 200px;
 }
 
 .link-topo {
@@ -26,6 +24,29 @@ body {
     margin-bottom: -45px;
     z-index:3;
     position: relative;
+}
+.banner-principal{
+    padding-top: 120px;
+    width: 100%;
+    padding-left: 130px;
+
+}
+
+.fundo-banner-principal{
+    background: url("../images/banner-home-1.png");
+    background-repeat: no-repeat;
+    height:500px;
+}
+.bloco-quem-somos{
+margin-top:-50px;
+    width: 110%;
+
+}
+.fundo-quem-somos{
+    background: url("../images/quemsomosback.png");
+    background-repeat: no-repeat;
+    height:170px;
+    padding-left: 50px;
 }
 
 .noticias-title{
