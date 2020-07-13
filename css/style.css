@@ -660,6 +660,17 @@ max-width: 100%;
     font-size: 12px
 }
 
+.buttom-right{
+    z-index: 999;
+    margin-left: 350px;
+    float: left;
+    background-color: #F7D41A;
+    border: none;
+    color: #41475F;
+    font-weight: bold;
+    font-size: 12px
+}
+
 ul li.separador {
     width: 51%;
     border-top: 2px solid #c6c8ca;
