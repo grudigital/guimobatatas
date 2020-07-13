@@ -2,9 +2,8 @@ body {
 max-width: 100%;
 }
 
-
 .topo {
-    background-color: #41475e;
+    background-color: #41475E;
 }
 .cor-letra-branca{
     color: #fff;
@@ -15,6 +14,15 @@ max-width: 100%;
     text-transform: uppercase;
     padding-left: 18px;
     font-weight: bold;
+}
+.background-fundo-topo{
+    background: url("../images/fundo-topo.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    margin-bottom: 20px;
+    z-index:3;
+    height: 40px;
 }
 
 .footer-bg {
@@ -31,7 +39,6 @@ max-width: 100%;
     position: relative;
 }
 .banner-principal{
-    padding-top: 120px;
     width: 100%;
     padding-left: 130px;
 
@@ -53,7 +60,7 @@ max-width: 100%;
     text-align: center;
     font-size: 40px;
     margin-bottom: -5px;
-    margin-left: -200px;
+    margin-left: -20px;
     margin-top: -20px;
 }
 .banner-principal-subtitulo{
@@ -73,12 +80,12 @@ max-width: 100%;
     text-align: center;
     margin-top:-10px;
     margin-bottom:50px;
-    margin-left:-190px
+    margin-left:-10px
 }
 .fundo-quem-somos{
     background: url("../images/quemsomosback.png");
     background-repeat: no-repeat;
-    height:170px;
+    height:220px;
     padding-left: 50px;
     position: relative;
     z-index: 5;
@@ -90,7 +97,7 @@ max-width: 100%;
 }
 
 .fundo-quem-somos p{
-    padding-top: 40px ;
+    padding-top: 60px ;
 }
 .banner-principal-titulo{
     font-size: 50px;
@@ -123,7 +130,8 @@ max-width: 100%;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    line-height: 0.5;
+    line-height: 0.8;
+    letter-spacing: 1px;
 }
 .bloco-quem-somos-corp{
     background-image: url("../images/quemsomos10.png");
@@ -149,9 +157,9 @@ max-width: 100%;
     line-height: 2.3;
 }
 .fundo-produtos{
-    background: url("../images/quemsomosback.png");
+    background: url("../images/produtos.png");
     background-repeat: no-repeat;
-    height:170px;
+    height:203px;
     padding-left: 50px;
     position: relative;
     z-index: 5;
@@ -159,17 +167,17 @@ max-width: 100%;
 }
 .produtos-buttom{
     text-transform: uppercase;
-    margin-left: 570px;
-    float: left;
+    margin-left: 550px;
     background-color: #F7D41A;
     border: none;
     color: #41475F;
-    font-weight: bold;
-    font-size: 14px;
-    width: 200px;
-    height: 50px;
+    font-weight: 800;
+    font-size: 30px;
+    width: 300px;
+    height: 80px;
     margin-bottom: 60px;
-    margin-top: 252px;
+    margin-top: 200px;
+
 }
 .bg-produtos{
     background-image: url("../images/banner-produtos.png");
@@ -201,17 +209,17 @@ max-width: 100%;
 }
 .horticulas-buttom{
     text-transform: uppercase;
-    margin-left: 570px;
+    margin-left: 550px;
     float: left;
     background-color: #41475F;
     border: none;
     color: #F7D41A;
     font-weight: bold;
-    font-size: 16px;
-    width: 200px;
-    height: 50px;
+    font-size: 30px;
+    width: 300px;
+    height: 80px;
     margin-bottom: 60px;
-    margin-top: 252px;
+    margin-top: 180px;
 }
 .carousel-item-produto{
     margin-bottom: 100px;
@@ -226,7 +234,8 @@ max-width: 100%;
     color: #41475F;
     margin-top: 120px;
     float: left;
-    font-weight: 500;
+    font-weight: 400;
+    font-size:14px;
 
 }
 .carousel-item-produto-title-amarelo{
@@ -393,6 +402,7 @@ max-width: 100%;
     text-align: center;
     font-size: 40px;
     margin-bottom: -5px;
+    margin-top: 40px;
 
 }
 .contato-title-amarelo{
@@ -411,10 +421,14 @@ max-width: 100%;
     margin-top: -5px;
     float: left;
 }
+.testemunho-geral{
+    width: 1100px;
+}
 
 .contato-di{
     color: #fff3cd;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .contato-es{
     color:#fff;
