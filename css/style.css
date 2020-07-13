@@ -49,6 +49,13 @@ max-width: 100%;
     background-repeat: no-repeat;
     height:618px;
 }
+
+.fundo-banner-single{
+    background: url("../images/banner-single.png");
+    background-repeat: no-repeat;
+    height:400px;
+    width: 100%;
+}
 .bloco-quem-somos{
     margin-top:-50px;
     width: 100%;
@@ -96,6 +103,7 @@ max-width: 100%;
     background-position: top center;
 }
 
+
 .fundo-quem-somos p{
     padding-top: 60px ;
 }
@@ -125,7 +133,7 @@ max-width: 100%;
     margin-top: 20px;
 }
 .quem-somos-conteudo{
-    color: #fff3cd;
+    color: #fff;
     margin-top: 120px;
     text-align: center;
     font-size: 16px;
@@ -262,7 +270,7 @@ max-width: 100%;
 }
 
 .testemunho-title{
-    color: #fff3cd;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
@@ -531,6 +539,7 @@ max-width: 100%;
     margin-bottom: -45px;
     z-index:3;
 }
+
 .contato-es-form{
     margin-top: 50px;
 }
@@ -560,4 +569,101 @@ max-width: 100%;
 }
 .contato-es-form-item-endereco img{
     margin-right:20px;
+}
+
+
+.banner-single-product{
+    background: url("../images/banner-single.png");
+    background-repeat: no-repeat;
+    height:220px;
+    padding-left: 50px;
+    position: relative;
+    z-index: 5;
+
+}
+.fundo-single {
+    background: url("../images/banner-single-2.png");
+    background-repeat: no-repeat;
+    height: 203px;
+    padding-left: 50px;
+    position: relative;
+    z-index: 5;
+    margin-top: -30px;
+}
+.fundo-single p {
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: -5px;
+    padding-top: 40px;
+    line-height: 90px;
+}
+.single-title{
+    color: #41475F;
+    font-size:20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:-25px;
+    margin-bottom:50px;
+    font-weight: bold;
+    width: 400px;
+    margin-left: 450px;
+}
+.single-date-tag {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 0.5;
+    color: #616677;
+    font-weight: bold;
+}
+
+.single-text-top {
+    text-align: justify;
+    margin-top: 40px;
+}
+.single-img img {
+    width: 300px;
+    margin-top: 40px;
+
+}
+.single-img {
+    text-align: center;
+    font-size: 12px;
+    line-height: 2.5;
+    margin-bottom: 40px;
+}
+.single-text-bottom{
+    text-align: justify;
+}
+.single-left{
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
+.single-right{
+
+}
+
+.single-amarelo{
+    color: #F7D41A;
+}
+
+.buttom-left{
+    z-index: 999;
+    margin-left: 350px;
+    float: left;
+    background-color: #F7D41A;
+    border: none;
+    color: #41475F;
+    font-weight: bold;
+    font-size: 12px
+}
+
+ul li.separador {
+    width: 51%;
+    border-top: 2px solid #c6c8ca;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 300px;
 }
