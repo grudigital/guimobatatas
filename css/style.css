@@ -1117,7 +1117,9 @@ ul li.separador {
     margin-left: 500px;
     font-family: 'Barrio';
 }
-
+.numeros{
+    color: #6c757d;
+}
 .numero-1{
     color: #c6c8ca;
 }
