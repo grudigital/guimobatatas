@@ -847,11 +847,15 @@ ul li.separador {
     text-transform: uppercase;
     font-weight: 900;
     font-size:30px;
+    margin-top: 80px;
+    margin-left: 150px;
 }
 .quem-somos-item-title-subtitle1{
     color: #41475F;
     font-size: 14px;
     font-weight: bold;
+    width: 320px;
+    margin-left: 150px;
 }
 
 .quem-somos-item-image2 img {
@@ -920,24 +924,44 @@ ul li.separador {
 
 .quem-somos-campo{
     z-index: 999;
-    margin-left: -50px;
-    float: right;
     background-color: #F7D41A;
     border: none;
     color: #41475F;
     font-weight: bold;
-    font-size: 12px
+    font-size: 12px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-left: 95px;
 }
 
 .quem-somos-campo1{
     z-index: 999;
-    margin-left: -150px;
-    float: right;
     background-color: #41475F;
     border: none;
     color: #f6d51c;
     font-weight: bold;
-    font-size: 12px
+    margin-right: 300px;
+    float: right;
+    margin-top: 150px;
+}
+.buttom-quem-somos{
+    z-index: 999;
+    background-color: #41475F;
+    border: none;
+    color: #f6d51c;
+    font-weight: bold;
+    margin-right: 400px;
+    float: right;
+    margin-top: 200px;
+    padding-top: 6px;
+    width: 170px;
+    padding-left: 10px;
+    height: 40px;
 }
 
-
+.imagem-14{
+    margin-bottom: 150px;
+}
+.imagem-13{
+    margin-top: 90px;
+}
