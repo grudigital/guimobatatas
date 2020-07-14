@@ -88,6 +88,7 @@ max-width: 100%;
     margin-top:-10px;
     margin-bottom:50px;
     margin-left:-10px
+
 }
 .fundo-quem-somos{
     background: url("../images/quemsomosback.png");
@@ -728,13 +729,13 @@ ul li.separador {
     background-color: #F7D41A;
     border: none;
     color: #41475F;
-    font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     width: 280px;
     height: 80px;
     text-transform: uppercase;
     margin-top: 130px;
     margin-left: 500px;
+    font-family: 'Barrio';
 }
 .banner-contact {
     background: url("../images/contacto-banner.png");
@@ -755,6 +756,7 @@ ul li.separador {
     margin-left: 450px;
     font-weight: 900;
     padding-top: 60px;
+
 }
 .contacto-geral{
     background: #ffffff;
@@ -819,8 +821,8 @@ ul li.separador {
 .quem-somos-item-title-amarelo {
     color: #F7D41A;
     text-transform: uppercase;
-    font-weight: 900;
-    font-size:30px;
+    font-size:40px;
+    font-family: 'Barrio';
 }
 .quem-somos-item-title-subtitle {
     color: #41475F;
@@ -845,10 +847,10 @@ ul li.separador {
 .quem-somos-item-title-amarelo1{
     color: #FFFFFF;
     text-transform: uppercase;
-    font-weight: 900;
-    font-size:30px;
+    font-size:40px;
     margin-top: 80px;
     margin-left: 150px;
+    font-family: 'Barrio';
 }
 .quem-somos-item-title-subtitle1{
     color: #41475F;
@@ -876,8 +878,8 @@ ul li.separador {
 .quem-somos-item-title-amarelo2{
     color: #F7D41A;
     text-transform: uppercase;
-    font-weight: 900;
-    font-size:30px;
+    font-size:40px;
+    font-family: 'Barrio';
 }
 .quem-somos-item-title-subtitle2{
     color: #41475F;
@@ -902,8 +904,8 @@ ul li.separador {
 .quem-somos-item-title-amarelo3{
     color: #F7D41A;
     text-transform: uppercase;
-    font-weight: 900;
-    font-size:30px;
+    font-size:40px;
+    font-family: 'Barrio';
 }
 .quem-somos-item-title-subtitle3{
     color: #41475F;
