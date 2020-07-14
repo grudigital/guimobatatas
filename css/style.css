@@ -575,10 +575,11 @@ max-width: 100%;
 .banner-single-product{
     background: url("../images/banner-single.png");
     background-repeat: no-repeat;
-    height:220px;
+    height:350px;
     padding-left: 50px;
     position: relative;
-    z-index: 5;
+    z-index: -1;
+    margin-top:-60px;
 
 }
 .fundo-single {
@@ -606,17 +607,17 @@ max-width: 100%;
     text-align: center;
     margin-top:-25px;
     margin-bottom:50px;
-    font-weight: bold;
     width: 400px;
     margin-left: 450px;
+    font-weight: 900;
 }
 .single-date-tag {
     font-size: 14px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
     line-height: 0.5;
     color: #616677;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .single-text-top {
@@ -647,7 +648,17 @@ max-width: 100%;
 
 .single-amarelo{
     color: #F7D41A;
+    margin-left:20px;
+    margin-right:20px;
 }
+.single-amarelo-texto{
+    color: #F7D41A;
+
+}
+.single-date-tag-tags{
+    margin-top: 30px;
+}
+
 
 .buttom-left{
     z-index: 999;
@@ -656,19 +667,49 @@ max-width: 100%;
     background-color: #F7D41A;
     border: none;
     color: #41475F;
-    font-weight: bold;
-    font-size: 12px
+    font-weight: 900;
+    font-size: 12px;
+    width:140px;
+    height: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
 }
 
 .buttom-right{
     z-index: 999;
-    margin-left: 350px;
+    margin-left: -135px;
+    margin-top: 90px;
     float: left;
     background-color: #F7D41A;
     border: none;
     color: #41475F;
-    font-weight: bold;
-    font-size: 12px
+    font-weight: 900;
+    font-size: 12px;
+    width:140px;
+    height: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+.pagina-single-bloco-compartilhe{
+    float:left;
+    margin-left:60px;
+
+}
+.pagina-single-bloco-compartilhe span{
+    font-weight: 500;
+    font-size:15px;
+    margin-right:10px;
+    float: left;
+
+}
+.pagina-single-bloco-compartilhe img{
+    height: 30px;
+    width:30px;
+    margin-left:10px;
+}
+.pagina-single-bloco-compartilhe li{
+    list-style-type: none;
+    float: left;
 }
 
 ul li.separador {
@@ -677,4 +718,5 @@ ul li.separador {
     list-style-type: none;
     margin-top: 40px;
     margin-left: 300px;
+    margin-bottom: 40px;
 }
