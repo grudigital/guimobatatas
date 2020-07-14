@@ -784,3 +784,160 @@ ul li.separador {
     z-index: 4;
     position: relative;
 }
+
+.banner-quem-somos{
+    background: url("../images/quem-somos-banner.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    padding-left: 50px;
+    position: relative;
+    z-index: -1;
+    margin-top: -60px;
+}
+
+.quem-somos-item-image img {
+    width: 250px;
+    float: right;
+}
+
+
+.quem-somos-item-text {
+    color: #41475F;
+    margin-top: 120px;
+    float: left;
+    font-weight: 400;
+    font-size:14px;
+
+}
+.quem-somos-item-text {
+    color: #41475F;
+    margin-top: 120px;
+    float: left;
+    font-weight: 400;
+    font-size:14px;
+}
+.quem-somos-item-title-amarelo {
+    color: #F7D41A;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:30px;
+}
+.quem-somos-item-title-subtitle {
+    color: #41475F;
+    font-size: 14px;
+    font-weight: bold;
+}
+.quem-somos-item-image1 img {
+    width: 250px;
+    float: right;
+    margin-top: 120px ;
+}
+
+
+.quem-somos-item-text1 {
+    color: #41475F;
+    margin-top: 120px;
+    float: left;
+    font-weight: 400;
+    font-size:14px;
+
+}
+.quem-somos-item-title-amarelo1{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:30px;
+}
+.quem-somos-item-title-subtitle1{
+    color: #41475F;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.quem-somos-item-image2 img {
+    width: 250px;
+    float: right;
+    margin-top: 120px ;
+}
+
+
+.quem-somos-item-text2 {
+    color: #41475F;
+    margin-top: 120px;
+    float: left;
+    font-weight: 400;
+    font-size:14px;
+
+}
+.quem-somos-item-title-amarelo2{
+    color: #F7D41A;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:30px;
+}
+.quem-somos-item-title-subtitle2{
+    color: #41475F;
+    font-size: 14px;
+    font-weight: bold;
+}
+.quem-somos-item-image3 img {
+    width: 250px;
+    float: right;
+    margin-top: 120px ;
+}
+
+
+.quem-somos-item-text3 {
+    color: #41475F;
+    margin-top: 120px;
+    float: left;
+    font-weight: 400;
+    font-size:14px;
+
+}
+.quem-somos-item-title-amarelo3{
+    color: #F7D41A;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:30px;
+}
+.quem-somos-item-title-subtitle3{
+    color: #41475F;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fundo-amarelo{
+    background: url("../images/quem-somos-banner2.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    padding-left: 50px;
+    position: relative;
+    z-index: -1;
+    margin-top: -60px;
+    width: 100%;
+}
+
+.quem-somos-campo{
+    z-index: 999;
+    margin-left: -50px;
+    float: right;
+    background-color: #F7D41A;
+    border: none;
+    color: #41475F;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.quem-somos-campo1{
+    z-index: 999;
+    margin-left: -150px;
+    float: right;
+    background-color: #41475F;
+    border: none;
+    color: #f6d51c;
+    font-weight: bold;
+    font-size: 12px
+}
+
+
